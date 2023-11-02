@@ -1,7 +1,7 @@
 
 function App() {
   return (
-    <div className="container">
+    <main className="container">
       <form className="form">
         <fieldset className="form__fieldset">
           <legend className="form__legend">
@@ -11,8 +11,7 @@ function App() {
             <label>
               <span className="form_labelText">Kwota w PLN*:
               </span>
-              <input className="form__field" type="number" step="0.01" name="kwotaPLN" min="0.01"
-                            required />
+              <input className="form__field" type="number" step="0.01" name="kwotaPLN" min="0.01" required />
             </label>
           </p>
           <p>
@@ -33,7 +32,7 @@ function App() {
           <button className="form__button" type="submit">Przelicz!</button>
         </p>
       </form>
-    </div>
+    </main>
   );
 }
 
