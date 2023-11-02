@@ -1,18 +1,14 @@
-# Getting Started with Create React App
+# Currency-Converter-react
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Demo
+[Link to converter](http://localhost:3000)
 
-In the project directory, you can run:
+## Description
+This is my second small project  that I have created during my FrontEnd jurney. This project focuses on using simple **JavaScript** function - *switch*.
+This currency converter calculates how much money in foreign currency we will have if we transfer amount given in PLN. Below is a gif showing how converter works. 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
