@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="container">
+      <form className="form">
+        <fieldset className="form__fieldset">
+          <legend className="form__legend">
+            Przelicz walutę
+          </legend>
+          <p>
+            <label>
+              <span className="form_labelText">Kwota w PLN*:
+              </span>
+              <input className="form__field" type="number" step="0.01" name="kwotaPLN" min="0.01"
+                            required />
+            </label>
+          </p>
+          <p>
+            <label>
+              <span className="form_labelText">Waluta:
+              </span>
+              <select className="form__field" name="innaWaluta">
+                <option value="EUR">Euro</option>
+                <option value="USD">Dolar Amerykański</option>
+                <option value="AED">Dirham Zjednoczonych Emiratów Arabskich</option>
+                <option value="NOK">Korona Norweska</option>
+              </select>
+            </label>
+          </p>
+          <p>Kwota wynosi: <strong></strong></p>
+        </fieldset>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <button className="form__button" type="submit">Przelicz!</button>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </form>
     </div>
   );
 }
