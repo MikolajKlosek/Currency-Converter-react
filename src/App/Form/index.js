@@ -54,12 +54,12 @@ export const Form = ({ calculateResult, result }) => {
                         </select>
                     </label>
                 </p>
+                <Result result={result} />
             </fieldset>
             <p>
                 <button className="form__button">Przelicz!</button>
             </p>
 
-            <Result result={result} />
         </form>
     );
 };
