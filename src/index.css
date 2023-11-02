@@ -6,9 +6,9 @@ html {
   box-sizing: inherit;
 }
 
-body {
+#root {
   font-family: 'Montserrat', sans-serif;
-  background-image: url("../public/images/background.png");
+  background-image: url("background.png");
   overflow: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,54 +19,4 @@ body {
   max-width: 700px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-.form__labelText {
-  width: 100%;
-  max-width: 150px;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.form__field {
-  border: 2px solid #000000;
-  padding: 10px;
-  width: 100%;
-  max-width: 200px;
-  border-radius: 5px;
-}
-
-.form__field:required {
-  border-color: #000000;
-}
-
-.form__button {
-  width: 100%;
-  border: solid;
-  background-color: aquamarine;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.form__button:hover {
-  background-color: hsl(160, 100%, 85%);
-}
-
-.form__button:active {
-  background-color: hsl(160, 100%, 90%);
-}
-
-.form__fieldset {
-  border: 2px solid #000000;
-  padding: 30px;
-  border-radius: 5px;
-  margin: 20px 0;
-  background-color: #bbbbbb5f;
-}
-
-.form__legend {
-  background-color: aquamarine;
-  border-radius: 5px;
-  padding: 10px;
-  border: 2px solid #000000;
 }
