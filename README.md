@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [Link to converter](http://localhost:3000)
 
 ## Description
-This is my second small project  that I have created during my FrontEnd jurney. This project focuses on using simple **JavaScript** function - *switch*.
+This is my second small project  that I have created with react during my FrontEnd jurney.
 This currency converter calculates how much money in foreign currency we will have if we transfer amount given in PLN. Below is a gif showing how converter works. 
 
 
