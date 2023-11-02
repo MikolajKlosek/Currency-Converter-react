@@ -9,6 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This is my second small project  that I have created with react during my FrontEnd jurney.
 This currency converter calculates how much money in foreign currency we will have if we transfer amount given in PLN. Below is a gif showing how converter works. 
 
+![GIF](https://github.com/MikolajKlosek/Currency-Converter-react/blob/main/public/images/Recording%202023-09-02%20at%2022.47.18.gif)
+
 
 ### `npm test`
 
