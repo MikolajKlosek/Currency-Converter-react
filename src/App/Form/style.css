@@ -11,6 +11,7 @@
     width: 100%;
     max-width: 200px;
     border-radius: 5px;
+    margin-left: 10px;
   }
   
   .form__field:required {
