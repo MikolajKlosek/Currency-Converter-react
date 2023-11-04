@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
+import { Clock } from "../Clock";
 import "./style.css";
 
 export const Form = ({ calculateResult, result }) => {
@@ -18,6 +19,7 @@ export const Form = ({ calculateResult, result }) => {
                 <legend className="form__legend">
                     Przelicz walutę
                 </legend>
+                <Clock />
                 <p>
                     <label>
                         <span className="form_labelText">Kwota w PLN*:
