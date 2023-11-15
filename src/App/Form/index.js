@@ -23,7 +23,6 @@ export const Form = ({ calculateResult, result }) => {
             <Header>
                 Przelicznik walut
             </Header>
-            <Clock />
             <p>
                 <label>
                     <LabelText>Kwota w PLN*:</LabelText>
