@@ -22,6 +22,7 @@ export const useRatesData = () => {
                     state: "success",
                     meta,
                     date,
+                    currencies,
                 });
 
             } catch {
