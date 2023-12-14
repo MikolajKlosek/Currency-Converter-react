@@ -15,13 +15,13 @@ export const useRatesData = () => {
                     throw new Error(response.statusText);
                 }
 
-                const { meta, date } = await response.json();
+                const { meta, data } = await response.json();
                 const currencies = Object.keys(response.data);
 
                 setRatesData({
                     state: "success",
                     meta,
-                    date,
+                    data,
                     currencies,
                 });
 
