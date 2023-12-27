@@ -17,7 +17,7 @@ export const Form = () => {
     const ratesData = useRatesData();
 
     const calculateResult = (currency, amount) => {
-        const rate = ratesData.rates[currency];
+        const rate = ratesData.data[currency];
 
         setResult({
             sourceAmount: +amount,
@@ -73,7 +73,7 @@ export const Form = () => {
                                         value={currency}
                                         onChange={({ target }) => setCurrency(target.value)}
                                     >
-                                        {Object.keys(ratesData.rates).map(((currency) => (
+                                        {ratesData.currencies.map(((currency) => (
                                             <option
                                                 key={currency}
                                                 value={currency}

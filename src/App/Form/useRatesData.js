@@ -16,7 +16,7 @@ export const useRatesData = () => {
                 }
 
                 const { meta, data } = await response.json();
-                const currencies = Object.keys(response.data);
+                const currencies = Object.keys(data);
 
                 setRatesData({
                     state: "success",
